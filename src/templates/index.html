@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data: Shirley Fichman</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+<h1>The City With The Lowest Temperature Is: {{lowest_temp_city}}</h1>
+<div class="city-container">
+    {% for key, value in min_data_dict.items() %}
+    <span>{{ key }}:</span>
+    <span>{{ value }}</span>
+    <br>
+    {% endfor %}
+</div>
+</body>
+</html>

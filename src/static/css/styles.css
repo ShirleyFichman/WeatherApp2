@@ -1,0 +1,22 @@
+h1{
+  color: white;
+  text-align:center;
+  padding: 20px;
+  margin: auto;
+}
+
+body{
+color: white;
+background-image: url("https://cdn.wallpapersafari.com/64/96/vLRhf9.jpg");
+font: normal 20px Arial, Helvetica, sans-serif;
+line-height: 1.6em;
+text-align:center;
+}
+
+.container{
+width: 40%;
+margin: auto;
+display: flex;
+padding: 29px;
+text-align: center;
+}
